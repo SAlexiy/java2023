@@ -1,4 +1,4 @@
-package math;
+package math.angle;
 
 public class Cos {
 

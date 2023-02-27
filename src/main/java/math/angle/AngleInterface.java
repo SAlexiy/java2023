@@ -1,8 +1,8 @@
-package math;
+package math.angle;
 
 import java.util.Map;
 
-public interface AngleRepositoryInterface {
+public interface AngleInterface {
     double getSin(Double degrees);
 
     double getCos(Double degrees);
