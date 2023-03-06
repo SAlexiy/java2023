@@ -1,9 +1,7 @@
 package MathTest;
 
 import org.junit.jupiter.api.Test;
-import math.Math;
-
-import java.util.logging.Logger;
+import mathematics.math.Math;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

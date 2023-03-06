@@ -1,4 +1,4 @@
-package console;
+package Mathematics.console;
 
 import java.util.Map;
 import java.util.Set;

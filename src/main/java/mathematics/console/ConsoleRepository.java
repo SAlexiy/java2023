@@ -1,4 +1,4 @@
-package console;
+package mathematics.console;
 
 import java.util.Map;
 

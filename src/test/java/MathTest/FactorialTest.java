@@ -1,9 +1,8 @@
 package MathTest;
 
 import org.junit.jupiter.api.Test;
-import math.Math;
+import mathematics.math.Math;
 
-import java.math.BigDecimal;
 import java.math.BigInteger;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

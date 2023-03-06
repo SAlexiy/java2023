@@ -1,12 +1,12 @@
-package math;
+package Mathematics.math;
 
-import math.angle.AngleInterface;
-import math.angle.Cos;
-import math.angle.Sin;
-import math.factorial.Factorial;
-import math.factorial.FactorialInterface;
-import math.sign.Sign;
-import math.sign.SignInterface;
+import Mathematics.math.angle.AngleInterface;
+import Mathematics.math.angle.Cos;
+import Mathematics.math.angle.Sin;
+import Mathematics.math.factorial.Factorial;
+import Mathematics.math.factorial.FactorialInterface;
+import Mathematics.math.sign.Sign;
+import Mathematics.math.sign.SignInterface;
 
 import java.math.BigInteger;
 import java.util.HashMap;

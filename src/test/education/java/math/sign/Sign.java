@@ -1,4 +1,4 @@
-package math.sign;
+package Mathematics.math.sign;
 
 public class Sign {
 

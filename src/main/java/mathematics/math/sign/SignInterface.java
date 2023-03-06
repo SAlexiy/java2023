@@ -1,4 +1,4 @@
-package math.sign;
+package mathematics.math.sign;
 
 public interface SignInterface {
     public Integer getSign(int num);
