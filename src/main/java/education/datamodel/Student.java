@@ -4,11 +4,9 @@ import java.util.List;
 
 public class Student {
 
-    String studentId;
-
-    String firstName;
-
-    String lastName;
+    private final String studentId;
+    private String firstName;
+    private String lastName;
 
     public Student(String studentId, String firstName, String lastName) {
         this.studentId = studentId;
@@ -26,12 +24,33 @@ public class Student {
     public List<Mark> getMarkReport(List<Mark> list){
 
         for (int i = 0; i < list.size();){
-            if ( list.get(i).studentId.equals(this.studentId) ){
+            if ( list.get(i).getStudentId().equals(this.studentId) ){
                 i++;
             } else {
                 list.remove(i);
             }
         }
         return list;
+    }
+
+
+    public String getStudentId() {
+        return studentId;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }

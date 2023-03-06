@@ -4,11 +4,9 @@ import java.util.List;
 
 public class Mark {
 
-    Integer value;
-
-    String studentId;
-
-    String taskId;
+    private Integer value;
+    private final String studentId;
+    private final String taskId;
 
     public Mark(Integer value, String studentId, String taskId) {
         this.value = value;
@@ -30,5 +28,21 @@ public class Mark {
         }
 
         return sum/list.size();
+    }
+
+    public Integer getValue() {
+        return value;
+    }
+
+    public void setValue(Integer value) {
+        this.value = value;
+    }
+
+    public String getStudentId() {
+        return studentId;
+    }
+
+    public String getTaskId() {
+        return taskId;
     }
 }
