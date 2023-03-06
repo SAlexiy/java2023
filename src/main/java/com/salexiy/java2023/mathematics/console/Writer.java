@@ -6,6 +6,7 @@ import java.util.TreeSet;
 
 public class Writer {
 
+
     public void writeStr(String str){
         System.out.println(str);
     }

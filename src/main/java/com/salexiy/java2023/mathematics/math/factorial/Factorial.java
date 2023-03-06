@@ -14,7 +14,7 @@ public class Factorial {
      */
     public BigInteger getFactorial(int num){
 
-        if(num < 0) throw new RuntimeException("Factorial.getFactorial: параметр меньше нуля");
+        if(num < 0) throw new IllegalArgumentException("Factorial.getFactorial: параметр меньше нуля");
 
         BigInteger factorial = BigInteger.ONE;
 

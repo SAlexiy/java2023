@@ -31,7 +31,7 @@ class FactorialTest {
     void getFactorialForParamLessThenZero() {
         int param = -1;
 
-        assertThrows(RuntimeException.class, () -> {
+        assertThrows(IllegalArgumentException.class, () -> {
             math.getFactorial(param);
         });
     }
@@ -49,7 +49,7 @@ class FactorialTest {
     void getFactorialForParamIsMinValue() {
         int param = Integer.MIN_VALUE;
 
-        assertThrows(RuntimeException.class, () -> {
+        assertThrows(IllegalArgumentException.class, () -> {
             math.getFactorial(param);
         });
     }

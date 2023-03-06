@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Reader {
     Scanner scanner;
 
+
     public Reader(Scanner scanner){
         this.scanner = scanner;
     }
@@ -14,7 +15,7 @@ public class Reader {
 
         String str = scanner.nextLine();
 
-        if(str.isEmpty() || str.equals(null)){
+        if(str.isEmpty()){
             str = "errorName";
         }
 

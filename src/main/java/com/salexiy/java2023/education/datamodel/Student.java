@@ -1,5 +1,6 @@
 package com.salexiy.java2023.education.datamodel;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Student {
@@ -22,15 +23,15 @@ public class Student {
      * @return list
      */
     public List<Mark> getMarkReport(List<Mark> list){
+        var result = new ArrayList<Mark>();
 
-        for (int i = 0; i < list.size();){
-            if ( list.get(i).getStudentId().equals(this.studentId) ){
-                ++i;
-            } else {
-                list.remove(i);
+        for (Mark mark : list) {
+            if (mark.getStudentId().equals(this.studentId)) {
+                result.add(mark);
             }
         }
-        return list;
+
+        return result;
     }
 
 
