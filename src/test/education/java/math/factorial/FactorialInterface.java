@@ -1,4 +1,4 @@
-package Mathematics.math.factorial;
+package mathematics.math.factorial;
 
 import java.math.BigInteger;
 

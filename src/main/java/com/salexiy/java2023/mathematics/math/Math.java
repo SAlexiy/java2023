@@ -1,12 +1,12 @@
-package mathematics.math;
+package com.salexiy.java2023.mathematics.math;
 
-import mathematics.math.angle.AngleInterface;
-import mathematics.math.angle.Cos;
-import mathematics.math.angle.Sin;
-import mathematics.math.factorial.Factorial;
-import mathematics.math.factorial.FactorialInterface;
-import mathematics.math.sign.Sign;
-import mathematics.math.sign.SignInterface;
+import com.salexiy.java2023.mathematics.math.angle.Cos;
+import com.salexiy.java2023.mathematics.math.angle.Sin;
+import com.salexiy.java2023.mathematics.math.angle.AngleInterface;
+import com.salexiy.java2023.mathematics.math.factorial.Factorial;
+import com.salexiy.java2023.mathematics.math.factorial.FactorialInterface;
+import com.salexiy.java2023.mathematics.math.sign.Sign;
+import com.salexiy.java2023.mathematics.math.sign.SignInterface;
 
 import java.math.BigInteger;
 import java.util.HashMap;

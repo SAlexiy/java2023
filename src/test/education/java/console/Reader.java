@@ -1,4 +1,4 @@
-package Mathematics.console;
+package mathematics.console;
 
 import java.util.Scanner;
 

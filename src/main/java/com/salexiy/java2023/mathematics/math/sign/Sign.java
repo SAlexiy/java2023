@@ -1,4 +1,4 @@
-package mathematics.math.sign;
+package com.salexiy.java2023.mathematics.math.sign;
 
 public class Sign {
 

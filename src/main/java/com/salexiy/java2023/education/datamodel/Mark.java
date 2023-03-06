@@ -1,4 +1,4 @@
-package education.datamodel;
+package com.salexiy.java2023.education.datamodel;
 
 import java.util.List;
 

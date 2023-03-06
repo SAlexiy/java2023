@@ -1,4 +1,4 @@
-package education.datamodel;
+package com.salexiy.java2023.education.datamodel;
 
 import java.util.List;
 
@@ -25,7 +25,7 @@ public class Student {
 
         for (int i = 0; i < list.size();){
             if ( list.get(i).getStudentId().equals(this.studentId) ){
-                i++;
+                ++i;
             } else {
                 list.remove(i);
             }

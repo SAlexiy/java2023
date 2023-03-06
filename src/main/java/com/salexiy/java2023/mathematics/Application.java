@@ -1,9 +1,9 @@
-package mathematics;
+package com.salexiy.java2023.mathematics;
 
-import mathematics.console.ConsoleRepository;
-import mathematics.console.Reader;
-import mathematics.console.Writer;
-import mathematics.math.Math;
+import com.salexiy.java2023.mathematics.console.ConsoleRepository;
+import com.salexiy.java2023.mathematics.console.Writer;
+import com.salexiy.java2023.mathematics.math.Math;
+import com.salexiy.java2023.mathematics.console.Reader;
 
 import java.util.Map;
 import java.util.Scanner;

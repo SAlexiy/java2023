@@ -1,4 +1,4 @@
-package Mathematics.math;
+package mathematics.math;
 
 import Mathematics.math.angle.AngleInterface;
 import Mathematics.math.angle.Cos;

@@ -1,4 +1,4 @@
-package mathematics.console;
+package com.salexiy.java2023.mathematics.console;
 
 import java.util.Scanner;
 

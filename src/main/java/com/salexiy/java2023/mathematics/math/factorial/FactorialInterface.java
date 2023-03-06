@@ -1,4 +1,4 @@
-package mathematics.math.factorial;
+package com.salexiy.java2023.mathematics.math.factorial;
 
 import java.math.BigInteger;
 

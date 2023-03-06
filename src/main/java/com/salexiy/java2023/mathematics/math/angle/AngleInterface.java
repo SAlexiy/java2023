@@ -1,4 +1,4 @@
-package mathematics.math.angle;
+package com.salexiy.java2023.mathematics.math.angle;
 
 import java.util.Map;
 

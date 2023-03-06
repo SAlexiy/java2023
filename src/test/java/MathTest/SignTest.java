@@ -1,7 +1,7 @@
 package MathTest;
 
 import org.junit.jupiter.api.Test;
-import mathematics.math.Math;
+import com.salexiy.java2023.mathematics.math.Math;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

@@ -1,4 +1,4 @@
-package Mathematics.math.angle;
+package mathematics.math.angle;
 
 public class Sin {
     public Sin(){

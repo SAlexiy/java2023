@@ -1,7 +1,7 @@
-import Mathematics.console.ConsoleRepository;
-import Mathematics.console.Reader;
-import Mathematics.console.Writer;
-import Mathematics.math.Math;
+import mathematics.console.ConsoleRepository;
+import mathematics.console.Reader;
+import mathematics.console.Writer;
+import mathematics.math.Math;
 
 import java.util.Map;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package education.datamodel;
+package com.salexiy.java2023.education.datamodel;
 
 import java.util.List;
 import java.util.UUID;
@@ -28,7 +28,7 @@ public class Task {
 
         for (int i = 0; i < list.size();){
             if ( list.get(i).getTaskId().equals(this.taskId) ){
-                i++;
+                ++i;
             } else {
                 list.remove(i);
             }
