@@ -8,4 +8,5 @@ public interface AngleInterface {
     double getCos(Double degrees);
 
     Map<Double, Double> getSinInRange(Double startDegrees, Double endDegrees, Double stepDegrees);
+
 }

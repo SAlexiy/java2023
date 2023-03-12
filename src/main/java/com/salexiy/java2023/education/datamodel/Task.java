@@ -1,5 +1,7 @@
 package com.salexiy.java2023.education.datamodel;
 
+import com.salexiy.java2023.education.datamodel.mark.Mark;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
@@ -17,6 +19,31 @@ public class Task {
         this.taskName = taskName;
         this.theme = theme;
         this.text = text;
+    }
+
+    private Task(TaskBuilder taskBuilder) {
+        this.taskId = taskBuilder.taskId;
+        this.taskName = taskBuilder.taskName;
+        this.theme = taskBuilder.theme;
+        this.text = taskBuilder.text;
+    }
+
+    public static class TaskBuilder {
+        private final String taskId;
+        private String taskName;
+        private String theme;
+        private String text;
+
+        public TaskBuilder(String taskId, String taskName, String theme, String text) {
+            this.taskId = taskId;
+            this.taskName = taskName;
+            this.theme = theme;
+            this.text = text;
+        }
+
+        public Task build() {
+            return new Task(this);
+        }
     }
 
     /**

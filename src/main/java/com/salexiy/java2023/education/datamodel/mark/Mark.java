@@ -1,4 +1,4 @@
-package com.salexiy.java2023.education.datamodel;
+package com.salexiy.java2023.education.datamodel.mark;
 
 import java.util.List;
 
@@ -13,6 +13,7 @@ public class Mark {
         this.studentId = studentId;
         this.taskId = taskId;
     }
+
 
     /**
      * Оставляет в списке отценки только этого учениека
