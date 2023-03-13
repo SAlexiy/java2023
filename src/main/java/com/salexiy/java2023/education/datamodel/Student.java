@@ -1,44 +1,28 @@
 package com.salexiy.java2023.education.datamodel;
 
 import com.salexiy.java2023.education.datamodel.mark.Mark;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@AllArgsConstructor
+@Builder
 public class Student {
 
+    @Getter
     private final String studentId;
+
+    @Getter
+    @Setter
     private String firstName;
+
+    @Getter
+    @Setter
     private String lastName;
-
-    public Student(String studentId, String firstName, String lastName) {
-        this.studentId = studentId;
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
-
-    private Student(StudentBuilder studentBuilder) {
-         studentId = studentBuilder.studentId;
-         firstName = studentBuilder.firstName;
-         lastName = studentBuilder.lastName;
-    }
-
-    public static class StudentBuilder {
-        private final String studentId;
-        private String firstName;
-        private String lastName;
-
-        //constructor for required fields
-        public StudentBuilder(String studentId, String firstName, String lastName) {
-            this.studentId = studentId;
-            this.firstName = firstName;
-            this.lastName = lastName;
-        }
-
-        public Student build() {
-            return new Student(this);
-        }
-    }
 
 
     /**
@@ -59,27 +43,4 @@ public class Student {
         return result;
     }
 
-
-
-
-
-    public String getStudentId() {
-        return studentId;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
 }
