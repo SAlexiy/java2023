@@ -1,19 +1,21 @@
 package com.salexiy.java2023.education.datamodel.mark;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.List;
 
+@AllArgsConstructor
 public class Mark {
 
+    @Getter
+    @Setter
     private Integer value;
+    @Getter
     private final String studentId;
+    @Getter
     private final String taskId;
-
-    public Mark(Integer value, String studentId, String taskId) {
-        this.value = value;
-        this.studentId = studentId;
-        this.taskId = taskId;
-    }
-
 
     /**
      * Оставляет в списке отценки только этого учениека
@@ -29,21 +31,5 @@ public class Mark {
         }
 
         return sum/list.size();
-    }
-
-    public Integer getValue() {
-        return value;
-    }
-
-    public void setValue(Integer value) {
-        this.value = value;
-    }
-
-    public String getStudentId() {
-        return studentId;
-    }
-
-    public String getTaskId() {
-        return taskId;
     }
 }
