@@ -1,5 +1,5 @@
 Серов Алексей Алексеевич
 
-![Uploading image.png…]()
+![Uploading image.png…](https://disk.yandex.ru/i/bA1DtjmGMHM2zg)
 
 s
